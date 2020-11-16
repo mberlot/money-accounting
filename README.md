@@ -3,9 +3,9 @@
 ## Running for the first time
 
 1. Clone the Repository
-2. Open a shell, cd into it's chanel-web folder and run: `$ cd money-accounting-web && npm i && cd .. && cd money-accounting-api && npm i && cd ..`
+2. you should have installed docker in your machine
     
 Then you are able to run the application by running
 ```shell
-$ npm run dev
+$ docker-compose up --build
 ```
