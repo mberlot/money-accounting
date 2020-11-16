@@ -1,0 +1,27 @@
+{
+  "name": "money-accounting-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "clean": "rm -Rf ./dist",
+    "build": "npm run clean; babel ./api -s -D -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maximiliano Berlot",
+  "license": "ISC",
+  "dependencies": {
+    "async-redis": "^1.1.7",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "redis": "^3.0.2",
+    "redlock": "^4.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^2.0.6"
+  }
+}

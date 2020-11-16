@@ -1,0 +1,1 @@
+{"version":3,"sources":["../api/server.js"],"names":["express","require","main","app"],"mappings":";;AAAA,IAAIA,UAAUC,QAAQ,SAAR,CAAd;AACA,MAAMC,OAAOD,QAAQ,QAAR,CAAb;;AAEA,MAAME,MAAMH,SAAZ;;AAEAE,KAAKA,IAAL,CAAUC,GAAV","file":"server.js","sourcesContent":["var express = require('express');\nconst main = require('./main');\n\nconst app = express();\n\nmain.main(app);\n"]}
