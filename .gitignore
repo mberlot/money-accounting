@@ -10,7 +10,6 @@
 /coverage
 
 # production
-/money-accounting-web/build
 /build
 
 # misc
